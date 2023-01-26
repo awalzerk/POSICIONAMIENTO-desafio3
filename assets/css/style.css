@@ -1,0 +1,258 @@
+
+
+body{
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-size: cover;
+    clear: both;
+    width: 1280px;
+    height: 1937px;
+}
+
+.header{
+    /* coloqué el tamaño de la fuente en 50px como aparecía en la maqueta pero el inspector decía ue era de 100px, así que la bajé a 25px, además que se veía demasiado grande */
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    font-family: 'Raleway', medium, sans-serif;
+}
+
+div{
+    display: inline-flex;
+}
+
+
+h1{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.section_imagen_grande{
+    /* para que cubra todo el ancho de la pantalla */
+    width: 100%;
+    top: 73px;
+    left: 0px;
+    width: 1280px;
+    height: 727px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/* Descripción de la iguana y foto */
+
+#main_rectangulo_descripcion{
+    margin: 0px;
+    clear: both;
+    width: 1280px;
+    height: 348px;
+}
+
+.descripcion_iguana{
+    display: inline-flex;
+    /* también usé float:left en vez de display y me daba el mismo resultado que display, en donde el texto quedaba a la par con la imagen */
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #fff;
+    padding-left: 150px;
+    padding-top: 76px;
+    padding-bottom: 75px;
+    margin: 0px;
+    height: 197px;
+    width: 475px;
+}
+
+.iguana_de_perfil{
+    float: right;
+    width: 399px;
+    height: 237px;
+    padding-right: 150px;
+    padding-top: 45px;
+    padding-bottom: 66px;
+}
+
+
+
+
+
+/* rectángulo de características */
+
+.rectangulo_de_menu{
+    background-color: #1E1A13;
+    width: 1280px;
+    height: 348px;
+    color: #fff;
+    padding: 0px;
+    display: flow-root;
+    border: 0px;
+    margin: 0px;
+}
+
+.h2_caracteristicas_menu{
+    padding-bottom: 70px;
+    display: flow-root;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+menu ul{
+    margin: 0px;
+    padding: 0px;
+    width: 1280px;
+    display: inline-block;
+}
+
+.ul li{
+    float: left;
+    display: flow-root;
+
+}
+
+.li_1{
+    /* tercer ojo */
+    text-align: center;
+    display: inline;
+    float: right;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 301px;
+    margin: 0px;
+}
+
+.li_2{
+    /* pacíficas */
+    text-align: center;
+    display: flow-root;
+    float: right;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 182px;
+    margin-left: 182px;
+}
+
+.li_3{
+    /* cambian de color */
+    text-align: center;
+    display: flow-root;
+    float: right;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* íconos */
+
+.ffa-eye {
+    /* ojo */
+    display: flexbox;
+    color: #fff;
+}
+
+.fa-hand-peace {
+    /* mano */
+    display: flexbox;
+    color: #fff;
+}
+
+.fa-paintbrush {
+    /* pincel */
+    display: flexbox;
+    color: #fff;
+}
+
+
+
+
+/* rectángulo de 3 imágenes */
+
+.rectangulo_de_imagenes{
+    clear: both;
+    width: 202px;
+    height: 316px;
+    opacity: 0.96;
+    background-color: #000000;
+    width: 1280px;
+    height: 348px;
+}
+
+.imagen_1{
+    float: left;
+    padding-left: 150px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    width: 316px;
+    height: 202px;
+}
+
+.imagen_2{
+    float: center;
+    padding-top: 73px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 73px;
+    margin: 0px;
+    width: 316px;
+    height: 202px;
+
+}
+
+.imagen_3{
+    float: right;
+    padding-right: 150px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    width: 316px;
+    height: 202px;
+    display: flow-root;
+}
+
+
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #1E1A13;
+    text-align: center;
+    display: inline-block;
+    width: 1280px;
+    height: 102px;
+}
+
+.footer p{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 39px;
+}
+
+.footer a{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 39px;
+}
+
